@@ -1,0 +1,129 @@
+
+body {
+    font-family: helvetica;
+    background-color: #f3f3f3;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+    
+}
+
+header {
+    max-width: 960px;
+    background-color: #59d5d8;
+    height: 150px;
+    padding: 4;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+
+#parent {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: #818181;   
+    width: 960px;
+    display: inline-block;
+}
+
+
+
+
+
+#rightUl {
+    padding:0 5px 0 5px;
+}
+
+#listLeft {
+    display: inline-block;    
+    padding-right: 20px;
+}
+
+
+
+
+
+#listRight {
+    display: inline;
+    padding-right: 15px;
+}
+
+#LeftMenu {
+    float: left;
+    width: 270px;
+}
+
+#search {
+    width: 350px;
+    float: left;
+    padding-top: 15px;
+    
+}
+
+#RightMenu {
+    width: 500;
+    float: right;
+    padding:0 15px 0 5px;
+}
+
+#SearchForm {
+   
+}
+
+#searchField {
+    width: 300px;
+}
+
+#leftUl {
+    padding:0 5px 0 5px;
+}
+
+a:hover{
+    color:#59d5d8;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0px;
+    font-variant: small-caps;
+    position: relative;
+}
+
+div ul li{
+    display: none;
+    
+}
+
+div ul li:hover ul li{
+    display: block;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Genres {
+    padding: 0px;
+    margin: 0px;
+}
