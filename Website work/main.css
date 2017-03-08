@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    max-width: 960px;
+    width: 960px;
     background-color: #59d5d8;
     height: 150px;
     padding: 4;
@@ -46,6 +46,10 @@ h1 {
 #listLeft {
     display: inline-block;    
     padding-right: 20px;
+    float: left;
+    padding-left: 25px;
+    width: 80px;
+    
 }
 
 
@@ -59,18 +63,18 @@ h1 {
 
 #LeftMenu {
     float: left;
-    width: 270px;
+    width: 300px;
 }
 
 #search {
-    width: 350px;
+    width: 160px;
     float: left;
     padding-top: 15px;
     
 }
 
 #RightMenu {
-    width: 500;
+    width: 450;
     float: right;
     padding:0 15px 0 5px;
 }
@@ -108,17 +112,6 @@ div ul li:hover ul li{
     display: block;
     position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
