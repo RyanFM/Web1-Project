@@ -1,0 +1,298 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #818181;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdown-btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 18px 22px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropdown-btn {
+    background-color: #f5f5f5;
+    color: #1ebb90;
+}
+
+li.dropdown {
+    display:inline-block;
+}
+   
+
+.dropdown-menu {
+    display: none;
+    position:absolute;
+    background-color:#818181;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu a {
+    color: #f5f5f5;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: #1ebb90;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#wrapper {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #818181;
+    
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 0;
+    
+    text-align: center;
+    width: 920px;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: helvetica;
+}
+
+#content {
+    padding: 10px;
+    
+}
+
+#search {
+    float: left;
+    width: 334px;
+    background-color: #818181;
+    text-align: center;
+    height: 55px;
+    margin: 0;
+}
+
+#footer {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#searchField {
+    width: 300px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+
+
+
+button {
+    margin-top: 0;
+    
+}
+
+
+#logo {
+    text-align: left;
+    position: relative;
+    top: -30px;
+    padding-left: 20px;
+}
+
+#loginLine {
+    text-align: right;
+    background-color: #f5f5f5;
+    
+}
+
+#leftNav {
+    width: 220px;
+    float: left;
+}
+
+#rightNav {
+    float: left;
+}
+
+#popularGame {
+    float: left;
+    width: 910px;
+    margin-top: 3px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:5px;
+    overflow: hidden;
+}
+
+
+
+#topGame {
+    overflow: hidden;
+    display: inline-block;
+    width: 910px;
+   
+}
+
+#topGame a img{
+    float: left;
+    padding-right: 10px;
+}
+
+
+#averageGames {
+    padding-top: 5px;
+    float: left;
+    border-bottom: 1px solid black;
+}
+
+.topSellers {
+    float: left;
+    margin-top: 5px;
+    width: 910px;
+    display: block;
+    border-bottom: 1px solid black;
+    
+    
+}
+
+.topSell {
+    background-color: #f5f5f5;
+    width: 910px;
+    float: left;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+    
+}
+
+.topSell a img{
+    float: left;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    padding-top: 6px;
+    padding-right: 8px;
+    
+}
+
+#sliderFrame, #sliderFrame div {
+    box-sizing: content-box;
+}
+#sliderFrame 
+{
+    width:380px;
+    margin-left: 280px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#slider, #slider .sliderInner {
+    width:380px;height:280px;/* Must be the same size as the slider images */
+    border-radius:3px;
+}
+
+#slider {
+    background-color:white;
+    position:relative;
+    margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+    box-shadow: 0px 1px 5px #999999;
+}
+
+/* the link style (if an image is wrapped by a link) */
+#slider a.imgLink, #slider .video {
+    z-index:2;
+    cursor:pointer;
+    position:absolute;
+    top:0px;left:0px;border:0;padding:0;margin:0;
+    width:100%;height:100%;
+}
+#slider .video {
+    background:transparent url(video.png) no-repeat 50% 50%;
+}
+
+/* Caption styles */
+#slider .mc-caption {
+    position:absolute;
+    width:100%;
+    height:auto;
+    padding:10px 0;/* 10px will increase the height.*/
+    left:0px;
+    bottom:0px;top:auto;
+    overflow:hidden;
+    font: bold 14px/20px Arial;
+    color:#EEE;
+    text-align:center;
+    background:rgba(0,0,0,0.3);
+}
+#slider .mc-caption a {
+    color:#FB0;
+}
+#slider .mc-caption a:hover {
+    color:#DA0;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+#slider .navBulletsWrapper  {
+    top:280px;
+    text-align:center;
+    background:none;
+    position:relative;
+    z-index:3;
+}
+
+/* each bullet */
+#slider .navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    font-size:0;color:White;/*hide the index number in the bullet element*/
+    background:transparent url(bullet.png) no-repeat 0 0;
+    display:inline-block; *display:inline; zoom:1;
+    overflow:hidden;cursor:pointer;
+    margin:0 6px;/* set distance between each bullet*/
+}
+
+#slider .navBulletsWrapper .active {background-position:0 -11px;}
+
+
+/* --------- Others ------- */
+
+#slider img, #slider>b, #slider a>b {
+    position:absolute; border:none; display:none;
+}
+
+#slider .sliderInner {
+    overflow:hidden;
+    position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+
